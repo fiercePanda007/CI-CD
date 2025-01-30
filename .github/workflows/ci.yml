@@ -36,4 +36,4 @@ jobs:
         if: success()
         run: |
           npm install -g vercel
-          vercel --prod --yes --token ${{ secrets.cicd }}
+          vercel --prod --yes --token ${{ secrets.vercel }}
